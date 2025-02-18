@@ -45,7 +45,8 @@ const useTheme = () => {
   const getInitialTheme = () => {
     if (typeof window === 'undefined') return false;
     const savedTheme = localStorage.getItem('theme');
-    return savedTheme ? JSON.parse(savedTheme) : getSystemTheme();
+    // Default to light theme if no saved theme
+    return savedTheme ? JSON.parse(savedTheme) : false;
   };
 
   const [isDark, setIsDark] = useState(getInitialTheme());
