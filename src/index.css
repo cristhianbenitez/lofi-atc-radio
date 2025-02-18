@@ -39,11 +39,7 @@
 .ytp-chrome-bottom {
   display: none !important;
 }
-.youtube-player {
-  pointer-events: $ {
-    ismobiledevice? 'auto' : 'none';
-  }
-}
+
 .youtube-player.mobile {
   width: 100%;
   height: 100%;
