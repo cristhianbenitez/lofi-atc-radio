@@ -58,7 +58,8 @@ const BOSSA_NOVA_PLAYLIST = [
   { id: 'SXQeyudFe-g', title: 'Bossa Nova Lounge' },
   { id: 'rt1mRnRp79A', title: 'Bossa Nova Café' },
   { id: '0xccB-_nvqk', title: 'Bossa Nova Jazz' },
-  { id: 'MadEqVeRFuM', title: 'Bossa Nova Classics' }
+  { id: 'MadEqVeRFuM', title: 'Bossa Nova Classics' },
+  { id: 'AZals4U6Z_I', title: 'Studio Ghibli Lo-Fi Jazz' }
 ];
 
 export { AIRPORTS, BOSSA_NOVA_PLAYLIST };
