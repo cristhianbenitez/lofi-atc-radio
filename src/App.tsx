@@ -994,6 +994,11 @@ function App() {
           </div>
         </div>
       </div>
+      <style>{`
+        .youtube-player {
+          pointer-events: ${isMobileDevice ? 'auto' : 'none'};
+        }
+      `}</style>
     </div>
   );
 }
